@@ -1,0 +1,57 @@
+.heroSection_container {
+    background-image: url("../../../../assets/00-Home/01-imagen principal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 875px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSection_content {
+    width: 1280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heroDescription_container {
+    font-family: 'Montserrat-Medium';
+    color: aliceblue;
+    font-size: 84px;
+
+    span {
+        font-family: 'Montserrat-Bold';
+    }
+
+    p {
+        width: 940px;
+        font-size: 32px;
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+
+}
+
+button {
+
+    display: block;
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    height: 70px;
+    width: 210px;
+    border-radius: 15px;
+    border: none;
+
+
+    margin-top: 200px;
+    margin-bottom: -200px;
+    margin-left: 30px;
+    color: white;
+    background: linear-gradient(225deg, rgba(40,230,15,1) 18%, rgba(13,203,13,1) 30%, rgba(41,126,21,1) 95%);
+
+}

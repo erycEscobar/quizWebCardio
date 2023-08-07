@@ -1,0 +1,28 @@
+.exerciseList_container { 
+    display: flex;   
+
+    max-height: 524px;
+    overflow-y: auto;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        
+        li {
+            padding: 10px;
+            list-style: none;
+            font-family: 'Montserrat-Regular';
+            color: #4D4D4D;
+            width: 130px;
+            
+        }
+
+        li:nth-child(2n+1) {
+            background-color: #363736; 
+        }
+        li:nth-child(2n+2) {
+            background-color: #2F302F; 
+        }
+
+    }
+}

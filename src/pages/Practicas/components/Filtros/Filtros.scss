@@ -1,0 +1,25 @@
+.filtros_container {
+    background-color: #3c3c3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 1280px;
+        font-family: 'Montserrat-Medium';
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 75px;
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.accesosRapidos_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 440px;
+
+    div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .accesosRapidos_buttons {
+        position: absolute;
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-evenly;
+            li {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+
+    img {
+        width: 235px;
+    }
+
+    div:nth-child(1) {
+        background-color: #4D4D4D;
+    }
+
+    div:nth-child(2) {
+        background-color: #3C3C3B;
+    }
+
+    p {
+        font-family: 'Montserrat-Regular';
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: white;
+        align-self: center;
+    }
+
+}

@@ -1,0 +1,39 @@
+.misEstadisticas_container {
+    position: relative;
+    width: 1280px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 60px; 
+    
+
+    .misEstadisticas_buttons {
+        display: flex;
+
+        gap: 10px;
+        border-left: 1px solid black;
+        padding-left: 15px;
+        
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border-bottom: 1px solid black;
+                width: 290px;
+
+                p {
+                    font-family: 'Montserrat-Regular';
+                    color: #3C3C3B;
+                }
+            }
+        }
+    }
+
+}

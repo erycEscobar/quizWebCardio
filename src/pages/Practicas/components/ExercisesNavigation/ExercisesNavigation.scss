@@ -1,0 +1,15 @@
+.exercisesNavigation_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-family: 'Montserrat-Regular';
+        color: #4d4d4d;
+    }
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.autoevaluation_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat-Regular';
+    font-size: 12px;
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+        }
+    }
+}

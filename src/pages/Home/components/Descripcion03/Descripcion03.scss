@@ -1,0 +1,27 @@
+.descripcion03_container {
+    background-image: url('../../../../assets/00-Home/01-10-fondo-electro.png');
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    div {
+
+        padding-bottom: 100px;
+
+        img {
+            height: 200px;
+        }
+    
+        p {
+            font-family: 'Aller-Light-Italic';
+            color: #3C3C3B;
+            font-size: 30px;
+            width: 1280px;
+            line-height: 80px;
+        }
+    }
+    
+
+}

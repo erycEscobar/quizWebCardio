@@ -1,0 +1,30 @@
+.descripcion01_container {
+    background-color: #DDDCD3;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    div {
+        position: relative;
+        height: 100%;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        img {
+            height: 230px;
+        }
+
+        p {
+            font-family: 'Aller-Light';
+            font-size: 30px;
+        }
+    }
+
+    img {
+        height: 750px;
+    }
+}

@@ -1,0 +1,41 @@
+.navBarOptions_container {
+    height: 100%;
+
+    ul {
+        display: flex;
+        height: 100%;
+        gap: 5px;
+
+        li {
+            list-style: none;
+            background-color: rgba(40, 40, 40, 0.3);
+
+            a{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 200px;
+                
+                font-family: 'Montserrat-Regular';
+                font-size: small;
+                color: aliceblue;
+                
+    
+                img {
+                    width: 50px;
+                    filter: invert(38%);
+                }
+            }
+        }
+
+        li:hover {
+            background: rgb(103,103,103);
+            background: linear-gradient(0deg, rgba(103,103,103,1) 0%, rgba(135,210,65,1) 15%, rgba(135,210,65,1) 85%, rgba(103,103,103,1) 100%);
+            a {
+                color: rgba(40, 40, 40);
+            }
+        }
+    }
+}

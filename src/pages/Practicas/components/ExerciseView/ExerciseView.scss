@@ -1,0 +1,18 @@
+.exerciseView_container {
+    display: flex;
+    justify-content: center;
+
+    background-color: #DDDCD3;
+    
+    flex: 1;
+
+    max-height: 524px;
+    overflow-y: auto;
+
+
+    img {
+        max-width: 1100px;
+        max-height: 460px;
+    }
+
+}

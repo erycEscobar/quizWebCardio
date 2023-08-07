@@ -1,0 +1,46 @@
+.practicas_container {
+    background-image: url('../../assets/02-Practicas/Fondo practicas.png');
+    width: 100vw;
+    flex: 1;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.practicas_navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 1280px;
+
+    li {
+        background-color: #4d4d4d;
+        height: 250px;
+        width: 230px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        
+        
+        a {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+
+        img {
+            width: 100px;
+        }
+
+        p {
+            font-family: 'Aller-Light';
+            font-size: 20px;
+            color: rgb(180, 180, 180);
+            text-align: center;
+            width: 200px;
+        }
+    }
+}

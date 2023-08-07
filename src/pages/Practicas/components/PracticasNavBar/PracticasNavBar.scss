@@ -1,0 +1,30 @@
+.practicasNavBar_container {
+    background-color: #333333;
+
+    div {
+        display: flex;
+        justify-content: center;
+        ul {
+            width: 1280px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 2px;
+                    width: 220px;
+                    p {
+                        font-family: 'Montserrat-Medium';
+                        color: #939393;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+        }
+    }
+
+}
